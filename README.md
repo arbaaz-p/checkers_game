@@ -1,10 +1,11 @@
 Checkers Game
 
+[Play the Game](https://arbaaz-p.github.io/checkers_game/)
 A browser-based Checkers game built using JavaScript and HTML5 Canvas.
 
 Overview
 
-This project was created my Partner @arnav and I as a final class project.
+This project was created by my partner @arnav and me as a final class project.
 It implements a playable checkers board with piece selection, movement, capturing mechanics, and king promotion.
 
 Features
