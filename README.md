@@ -1,6 +1,7 @@
 Checkers Game
 
 [Play the Game](https://arbaaz-p.github.io/checkers_game/)
+
 A browser-based Checkers game built using JavaScript and HTML5 Canvas.
 
 Overview
