@@ -49,6 +49,7 @@
             <div class="hero-actions" aria-label="Profile links">
               <a class="button button-primary" href="#work">View my work</a>
               <a class="button button-secondary" href="https://github.com/arbaaz-p" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="button button-secondary" href="https://leetcode.com/u/Arbaaz_P/" target="_blank" rel="noreferrer">LeetCode</a>
               <a class="button button-secondary" href="https://www.linkedin.com/in/arbaaz-pathanbc/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
@@ -72,7 +73,7 @@
               </div>
               <div>
                 <dt>Strengths</dt>
-                <dd>Programming, hardware testing, communication</dd>
+                <dd>Python, JavaScript, hardware testing</dd>
               </div>
             </dl>
           </aside>
@@ -88,9 +89,73 @@
         <section class="section" id="work" aria-labelledby="work-title">
           <div class="section-heading">
             <p class="section-index">01 / SELECTED WORK</p>
-            <h2 id="work-title">A working project, not a placeholder.</h2>
-            <p>The code and live demonstration are public so you can inspect how the project works.</p>
+            <h2 id="work-title">Projects you can inspect and run.</h2>
+            <p>Each project is labelled clearly as independent practice, expanded coursework, or collaborative class work.</p>
           </div>
+
+          <article class="project-card">
+            <div class="project-visual terminal-visual" aria-label="File integrity verification report">
+              <div class="terminal-window" aria-hidden="true">
+                <div class="terminal-bar"><i></i><i></i><i></i><span>verify-report.json</span></div>
+                <pre><span class="terminal-muted">$ python3 fim.py verify ./evidence</span>
+{
+  "changed": <span class="terminal-alert">true</span>,
+  "changes": {
+    "created": ["new-note.txt"],
+    "modified": ["evidence.txt"],
+    "deleted": []
+  }
+}</pre>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span>DEFENSIVE SECURITY</span>
+                <span>7 TESTS PASSING</span>
+              </div>
+              <h3>SHA-256 File Integrity Monitor</h3>
+              <p>
+                A Python command-line tool that creates a cryptographic baseline and reports created, modified, and deleted files in structured JSON. It uses chunked hashing, repeatable ignore rules, symlink-safe scanning, and distinct exit codes for automation.
+              </p>
+              <ul class="tag-list" aria-label="Project technologies">
+                <li>Python</li>
+                <li>SHA-256</li>
+                <li>JSON</li>
+                <li>unittest</li>
+              </ul>
+              <p class="project-caveat">Scope: detects byte-level changes; it does not identify an actor or establish forensic chain of custody.</p>
+              <div class="project-links">
+                <a href="https://github.com/arbaaz-p/checkers_game/tree/main/cybersecurity/file-integrity-monitor" target="_blank" rel="noreferrer">Review source and tests</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual pixels-visual" aria-label="Before and after pixel processing comparison">
+              <div class="pixel-panel pixel-original" aria-hidden="true"><span>ORIGINAL</span></div>
+              <div class="pixel-panel pixel-processed" aria-hidden="true"><span>8 COLOURS</span></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span>COURSEWORK EXPANDED</span>
+                <span>LIVE</span>
+              </div>
+              <h3>Interactive Image Processing Lab</h3>
+              <p>
+                An expanded CPSC 2130 project that manipulates RGBA pixels directly in HTML5 Canvas. The demo applies a sepia transform, maps pixels to an eight-colour palette, and downsamples an image by averaging 4×4 blocks without Canvas scaling.
+              </p>
+              <ul class="tag-list" aria-label="Project technologies">
+                <li>JavaScript</li>
+                <li>HTML5 Canvas</li>
+                <li>Pixel algorithms</li>
+                <li>Responsive UI</li>
+              </ul>
+              <div class="project-links">
+                <a href="projects/image-processing-lab/">Open interactive lab</a>
+                <a href="https://github.com/arbaaz-p/checkers_game/tree/main/portfolio/projects/image-processing-lab" target="_blank" rel="noreferrer">Review source code</a>
+              </div>
+            </div>
+          </article>
 
           <article class="project-card">
             <div class="project-visual" aria-label="Abstract representation of an eight by eight checkers board">
@@ -141,12 +206,12 @@
             <article>
               <p class="skill-number">A</p>
               <h3>Programming</h3>
-              <p>JavaScript, C, C++, Java, HTML, and CSS, with academic work in algorithms, data structures, and object-oriented programming.</p>
+              <p>Python, JavaScript, C, C++, Java, HTML, and CSS, with academic work in algorithms, data structures, and object-oriented programming.</p>
             </article>
             <article>
               <p class="skill-number">B</p>
               <h3>Technical practice</h3>
-              <p>Git, GitHub, browser developer tools, HTML5 Canvas, debugging, hardware inspection, and systematic quality checks.</p>
+              <p>Git, GitHub, unittest, JSON, HTML5 Canvas, browser developer tools, debugging, hardware inspection, and systematic quality checks.</p>
             </article>
             <article>
               <p class="skill-number">C</p>
@@ -183,7 +248,7 @@
               <span>Current</span>
               <div>
                 <h3>Continued development</h3>
-                <p>Cybersecurity fundamentals, portfolio projects, and technical problem solving</p>
+                <p>File integrity monitoring, cybersecurity fundamentals, and technical problem solving</p>
               </div>
             </article>
           </div>
@@ -196,6 +261,7 @@
           <div class="contact-links">
             <a href="mailto:arboo2257@gmail.com">arboo2257@gmail.com</a>
             <a href="https://github.com/arbaaz-p" target="_blank" rel="noreferrer">github.com/arbaaz-p</a>
+            <a href="https://leetcode.com/u/Arbaaz_P/" target="_blank" rel="noreferrer">LeetCode profile</a>
             <a href="https://www.linkedin.com/in/arbaaz-pathanbc/" target="_blank" rel="noreferrer">LinkedIn profile</a>
           </div>
         </section>
