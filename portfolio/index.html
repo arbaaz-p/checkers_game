@@ -131,6 +131,43 @@
           </article>
 
           <article class="project-card">
+            <div class="project-visual terminal-visual" aria-label="Java concurrent queue test output">
+              <div class="terminal-window" aria-hidden="true">
+                <div class="terminal-bar"><i></i><i></i><i></i><span>BoundedBlockingQueueTest</span></div>
+                <pre><span class="terminal-muted">$ javac -d out $(find src test -name '*.java')</span>
+<span class="terminal-muted">$ java -cp out dev.arbaaz.concurrent.BoundedBlockingQueueTest</span>
+
+<span>PASS: 6 concurrency tests</span>
+
+capacity = 8
+producers = 4
+consumers = 4
+items exchanged = 1000</pre>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span>COURSEWORK EXPANDED</span>
+                <span>6 TESTS PASSING</span>
+              </div>
+              <h3>Java Concurrent Bounded Queue</h3>
+              <p>
+                A generic producer-consumer queue built with a fair ReentrantLock and separate not-empty and not-full conditions. The project demonstrates interruptible blocking, FIFO ordering, capacity enforcement, and coordination among multiple worker threads without busy-waiting.
+              </p>
+              <ul class="tag-list" aria-label="Project technologies">
+                <li>Java</li>
+                <li>Concurrency</li>
+                <li>Locks &amp; conditions</li>
+                <li>Testing</li>
+              </ul>
+              <p class="project-caveat">Origin: refactored and expanded from a CPSC 1181 producer-consumer lab; production applications should use Java's standard concurrent queues.</p>
+              <div class="project-links">
+                <a href="https://github.com/arbaaz-p/checkers_game/tree/main/java/concurrent-bounded-queue" target="_blank" rel="noreferrer">Review source and tests</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
             <div class="project-visual pixels-visual" aria-label="Before and after pixel processing comparison">
               <div class="pixel-panel pixel-original" aria-hidden="true"><span>ORIGINAL</span></div>
               <div class="pixel-panel pixel-processed" aria-hidden="true"><span>8 COLOURS</span></div>
